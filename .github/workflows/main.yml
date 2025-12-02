@@ -12,8 +12,8 @@ jobs:
       - name: Code checkout
         uses: actions/checkout@v4
 
-        - name: Maven Build
-          run: mvn test
+      - name: Maven Build
+        run: mvn test
 
   Testing:
     runs-on: ubuntu-latest
